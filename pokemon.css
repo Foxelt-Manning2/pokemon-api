@@ -1,0 +1,86 @@
+body{
+    background: azure;
+    background-image: url("pokemonBackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    top: 0px;
+    bottom: 0px;
+    min-height: 100vh;
+  
+}
+
+#show{
+
+     text-align:center;
+    color:hsl(82, 96%, 45%);
+    text-align: center;
+    font-weight: 900;
+}
+
+#Choices,#intro{
+    background-color: rgb(6, 26, 26);
+}
+
+h1{
+
+   color: rgb(8, 148, 104);
+   font-size: 40vm;
+   font-weight: bolder;
+   mix-blend-mode: screen;
+   text-align:center;
+   width: 50%;
+   margin-left: 20%;
+}
+#specific-info{
+    color: black;
+    text-shadow: 4px 8px 9px red;
+    font-size: 4vh;
+    float: left;
+    font-weight: 900;
+    list-style: none;
+    width: 50%;
+}
+#Class_spec{
+    text-shadow: 4px 8px 9px blue;
+    font-size: 4vh;
+    color:white;
+    width: 40%;
+    float: right;
+    font-weight: 900;
+    list-style:circle;
+
+}
+#imageSpace{
+    font-weight: bold;
+    color: tomato;
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+#imageSpace img{
+    min-height: 24%;
+    max-height: 34%;
+    max-width: 30%;
+    min-width: 24%;
+}
+#imageSpace::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#pokemonSearch{
+    text-align: center;
+    flex:1;
+    place-self: center;
+    margin-left: 40%;
+    background-color:peru;
+    border-radius: 10px;
+    border: 3px 4px solid white;
+}
